@@ -47,7 +47,7 @@ A Spring Boot REST API for creating and managing quizzes. It supports **Admins**
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/costume-quiz-api.git
+   git clone https://github.com/PRIYANSHU4061/costume-quiz-api.git
 Configure database in application.properties:
 
 properties
@@ -68,6 +68,7 @@ Quiz	quizId, title, description
 Question	questionId, questionText, quizId (FK)
 Option	optionId, optionText, correct, questionId (FK)
 Result	resultId, userId (FK), quizId (FK), score
+
 🎯 Future Enhancements
 
 ⏱️ Add a timer for each question
